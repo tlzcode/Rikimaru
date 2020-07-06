@@ -33,7 +33,7 @@ extension UIResponder: Rikimaru {
   public func resolve(_ eventName: String, parameters: Parameters) {
     var responder: UIResponder? = self
     while responder != nil {
-      responder?.rikimaru_handles[eventName.hashValue]?.handle(parameters)
+      responder?.rikimaru_handles[eventName.rikimaru_identity]?.handle(parameters)
       responder = responder?.next
     }
   }
