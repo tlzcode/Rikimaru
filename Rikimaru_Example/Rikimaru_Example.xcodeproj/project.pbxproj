@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAD1AC9A24B2D99E00B681B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD1AC9924B2D99E00B681B3 /* AppDelegate.swift */; };
+		DAD1AC9C24B2D99E00B681B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD1AC9B24B2D99E00B681B3 /* SceneDelegate.swift */; };
+		DAD1AC9E24B2D99E00B681B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD1AC9D24B2D99E00B681B3 /* ContentView.swift */; };
+		DAD1ACA024B2D9A100B681B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD1AC9F24B2D9A100B681B3 /* Assets.xcassets */; };
+		DAD1ACA324B2D9A100B681B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD1ACA224B2D9A100B681B3 /* Preview Assets.xcassets */; };
+		DAD1ACA624B2D9A100B681B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD1ACA424B2D9A100B681B3 /* LaunchScreen.storyboard */; };
+		DAD1ACB124B2D9A100B681B3 /* Rikimaru_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD1ACB024B2D9A100B681B3 /* Rikimaru_ExampleTests.swift */; };
+		DAD1ACBC24B2D9A100B681B3 /* Rikimaru_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD1ACBB24B2D9A100B681B3 /* Rikimaru_ExampleUITests.swift */; };
+		DAD1ACCA24B2EF8F00B681B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD1ACC924B2EF8F00B681B3 /* ViewController.swift */; };
+		DAD1ACCD24B2F9F300B681B3 /* Rikimaru.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD1ACCC24B2F9F300B681B3 /* Rikimaru.framework */; };
+		DAD1ACCE24B2F9F300B681B3 /* Rikimaru.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DAD1ACCC24B2F9F300B681B3 /* Rikimaru.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DAD1ACD324B3139300B681B3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD1ACD224B3139300B681B3 /* TableViewController.swift */; };
+		DAD1ACD924B40F2300B681B3 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = DAD1ACD824B40F2300B681B3 /* .travis.yml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAD1ACAD24B2D9A100B681B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD1AC8E24B2D99E00B681B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD1AC9524B2D99E00B681B3;
+			remoteInfo = Rikimaru_Example;
+		};
+		DAD1ACB824B2D9A100B681B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD1AC8E24B2D99E00B681B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD1AC9524B2D99E00B681B3;
+			remoteInfo = Rikimaru_Example;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DAD1ACCF24B2F9F300B681B3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DAD1ACCE24B2F9F300B681B3 /* Rikimaru.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DAD1AC9624B2D99E00B681B3 /* Rikimaru_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rikimaru_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD1AC9924B2D99E00B681B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAD1AC9B24B2D99E00B681B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DAD1AC9D24B2D99E00B681B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAD1AC9F24B2D9A100B681B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAD1ACA224B2D9A100B681B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAD1ACA524B2D9A100B681B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAD1ACA724B2D9A100B681B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD1ACAC24B2D9A100B681B3 /* Rikimaru_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rikimaru_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD1ACB024B2D9A100B681B3 /* Rikimaru_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rikimaru_ExampleTests.swift; sourceTree = "<group>"; };
+		DAD1ACB224B2D9A100B681B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD1ACB724B2D9A100B681B3 /* Rikimaru_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rikimaru_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD1ACBB24B2D9A100B681B3 /* Rikimaru_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rikimaru_ExampleUITests.swift; sourceTree = "<group>"; };
+		DAD1ACBD24B2D9A100B681B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD1ACC924B2EF8F00B681B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAD1ACCC24B2F9F300B681B3 /* Rikimaru.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Rikimaru.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD1ACD224B3139300B681B3 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		DAD1ACD824B40F2300B681B3 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAD1AC9324B2D99E00B681B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD1ACCD24B2F9F300B681B3 /* Rikimaru.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD1ACA924B2D9A100B681B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD1ACB424B2D9A100B681B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAD1AC8D24B2D99E00B681B3 = {
+			isa = PBXGroup;
+			children = (
+				DAD1ACD724B40EF900B681B3 /* Reference */,
+				DAD1AC9824B2D99E00B681B3 /* Rikimaru_Example */,
+				DAD1ACAF24B2D9A100B681B3 /* Rikimaru_ExampleTests */,
+				DAD1ACBA24B2D9A100B681B3 /* Rikimaru_ExampleUITests */,
+				DAD1AC9724B2D99E00B681B3 /* Products */,
+				DAD1ACCB24B2F9F300B681B3 /* Frameworks */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		DAD1AC9724B2D99E00B681B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAD1AC9624B2D99E00B681B3 /* Rikimaru_Example.app */,
+				DAD1ACAC24B2D9A100B681B3 /* Rikimaru_ExampleTests.xctest */,
+				DAD1ACB724B2D9A100B681B3 /* Rikimaru_ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAD1AC9824B2D99E00B681B3 /* Rikimaru_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DAD1AC9924B2D99E00B681B3 /* AppDelegate.swift */,
+				DAD1AC9B24B2D99E00B681B3 /* SceneDelegate.swift */,
+				DAD1AC9D24B2D99E00B681B3 /* ContentView.swift */,
+				DAD1ACC924B2EF8F00B681B3 /* ViewController.swift */,
+				DAD1ACD224B3139300B681B3 /* TableViewController.swift */,
+				DAD1AC9F24B2D9A100B681B3 /* Assets.xcassets */,
+				DAD1ACA424B2D9A100B681B3 /* LaunchScreen.storyboard */,
+				DAD1ACA724B2D9A100B681B3 /* Info.plist */,
+				DAD1ACA124B2D9A100B681B3 /* Preview Content */,
+			);
+			path = Rikimaru_Example;
+			sourceTree = "<group>";
+		};
+		DAD1ACA124B2D9A100B681B3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DAD1ACA224B2D9A100B681B3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DAD1ACAF24B2D9A100B681B3 /* Rikimaru_ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD1ACB024B2D9A100B681B3 /* Rikimaru_ExampleTests.swift */,
+				DAD1ACB224B2D9A100B681B3 /* Info.plist */,
+			);
+			path = Rikimaru_ExampleTests;
+			sourceTree = "<group>";
+		};
+		DAD1ACBA24B2D9A100B681B3 /* Rikimaru_ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD1ACBB24B2D9A100B681B3 /* Rikimaru_ExampleUITests.swift */,
+				DAD1ACBD24B2D9A100B681B3 /* Info.plist */,
+			);
+			path = Rikimaru_ExampleUITests;
+			sourceTree = "<group>";
+		};
+		DAD1ACCB24B2F9F300B681B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAD1ACCC24B2F9F300B681B3 /* Rikimaru.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAD1ACD724B40EF900B681B3 /* Reference */ = {
+			isa = PBXGroup;
+			children = (
+				DAD1ACD824B40F2300B681B3 /* .travis.yml */,
+			);
+			name = Reference;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAD1AC9524B2D99E00B681B3 /* Rikimaru_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD1ACC024B2D9A100B681B3 /* Build configuration list for PBXNativeTarget "Rikimaru_Example" */;
+			buildPhases = (
+				DAD1AC9224B2D99E00B681B3 /* Sources */,
+				DAD1AC9324B2D99E00B681B3 /* Frameworks */,
+				DAD1AC9424B2D99E00B681B3 /* Resources */,
+				DAD1ACCF24B2F9F300B681B3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rikimaru_Example;
+			productName = Rikimaru_Example;
+			productReference = DAD1AC9624B2D99E00B681B3 /* Rikimaru_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAD1ACAB24B2D9A100B681B3 /* Rikimaru_ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD1ACC324B2D9A100B681B3 /* Build configuration list for PBXNativeTarget "Rikimaru_ExampleTests" */;
+			buildPhases = (
+				DAD1ACA824B2D9A100B681B3 /* Sources */,
+				DAD1ACA924B2D9A100B681B3 /* Frameworks */,
+				DAD1ACAA24B2D9A100B681B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD1ACAE24B2D9A100B681B3 /* PBXTargetDependency */,
+			);
+			name = Rikimaru_ExampleTests;
+			productName = Rikimaru_ExampleTests;
+			productReference = DAD1ACAC24B2D9A100B681B3 /* Rikimaru_ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAD1ACB624B2D9A100B681B3 /* Rikimaru_ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD1ACC624B2D9A100B681B3 /* Build configuration list for PBXNativeTarget "Rikimaru_ExampleUITests" */;
+			buildPhases = (
+				DAD1ACB324B2D9A100B681B3 /* Sources */,
+				DAD1ACB424B2D9A100B681B3 /* Frameworks */,
+				DAD1ACB524B2D9A100B681B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD1ACB924B2D9A100B681B3 /* PBXTargetDependency */,
+			);
+			name = Rikimaru_ExampleUITests;
+			productName = Rikimaru_ExampleUITests;
+			productReference = DAD1ACB724B2D9A100B681B3 /* Rikimaru_ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAD1AC8E24B2D99E00B681B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = stefanie;
+				TargetAttributes = {
+					DAD1AC9524B2D99E00B681B3 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					DAD1ACAB24B2D9A100B681B3 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = DAD1AC9524B2D99E00B681B3;
+					};
+					DAD1ACB624B2D9A100B681B3 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = DAD1AC9524B2D99E00B681B3;
+					};
+				};
+			};
+			buildConfigurationList = DAD1AC9124B2D99E00B681B3 /* Build configuration list for PBXProject "Rikimaru_Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAD1AC8D24B2D99E00B681B3;
+			productRefGroup = DAD1AC9724B2D99E00B681B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAD1AC9524B2D99E00B681B3 /* Rikimaru_Example */,
+				DAD1ACAB24B2D9A100B681B3 /* Rikimaru_ExampleTests */,
+				DAD1ACB624B2D9A100B681B3 /* Rikimaru_ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAD1AC9424B2D99E00B681B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD1ACA624B2D9A100B681B3 /* LaunchScreen.storyboard in Resources */,
+				DAD1ACA324B2D9A100B681B3 /* Preview Assets.xcassets in Resources */,
+				DAD1ACD924B40F2300B681B3 /* .travis.yml in Resources */,
+				DAD1ACA024B2D9A100B681B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD1ACAA24B2D9A100B681B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD1ACB524B2D9A100B681B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAD1AC9224B2D99E00B681B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD1AC9A24B2D99E00B681B3 /* AppDelegate.swift in Sources */,
+				DAD1AC9C24B2D99E00B681B3 /* SceneDelegate.swift in Sources */,
+				DAD1ACCA24B2EF8F00B681B3 /* ViewController.swift in Sources */,
+				DAD1ACD324B3139300B681B3 /* TableViewController.swift in Sources */,
+				DAD1AC9E24B2D99E00B681B3 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD1ACA824B2D9A100B681B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD1ACB124B2D9A100B681B3 /* Rikimaru_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD1ACB324B2D9A100B681B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD1ACBC24B2D9A100B681B3 /* Rikimaru_ExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAD1ACAE24B2D9A100B681B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD1AC9524B2D99E00B681B3 /* Rikimaru_Example */;
+			targetProxy = DAD1ACAD24B2D9A100B681B3 /* PBXContainerItemProxy */;
+		};
+		DAD1ACB924B2D9A100B681B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD1AC9524B2D99E00B681B3 /* Rikimaru_Example */;
+			targetProxy = DAD1ACB824B2D9A100B681B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAD1ACA424B2D9A100B681B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD1ACA524B2D9A100B681B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAD1ACBE24B2D9A100B681B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAD1ACBF24B2D9A100B681B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAD1ACC124B2D9A100B681B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Rikimaru_Example/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Rikimaru_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "coconut.Rikimaru-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAD1ACC224B2D9A100B681B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Rikimaru_Example/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Rikimaru_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "coconut.Rikimaru-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAD1ACC424B2D9A100B681B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Rikimaru_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "coconut.Rikimaru-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rikimaru_Example.app/Rikimaru_Example";
+			};
+			name = Debug;
+		};
+		DAD1ACC524B2D9A100B681B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Rikimaru_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "coconut.Rikimaru-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rikimaru_Example.app/Rikimaru_Example";
+			};
+			name = Release;
+		};
+		DAD1ACC724B2D9A100B681B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Rikimaru_ExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "coconut.Rikimaru-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rikimaru_Example;
+			};
+			name = Debug;
+		};
+		DAD1ACC824B2D9A100B681B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Rikimaru_ExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "coconut.Rikimaru-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rikimaru_Example;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAD1AC9124B2D99E00B681B3 /* Build configuration list for PBXProject "Rikimaru_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD1ACBE24B2D9A100B681B3 /* Debug */,
+				DAD1ACBF24B2D9A100B681B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD1ACC024B2D9A100B681B3 /* Build configuration list for PBXNativeTarget "Rikimaru_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD1ACC124B2D9A100B681B3 /* Debug */,
+				DAD1ACC224B2D9A100B681B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD1ACC324B2D9A100B681B3 /* Build configuration list for PBXNativeTarget "Rikimaru_ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD1ACC424B2D9A100B681B3 /* Debug */,
+				DAD1ACC524B2D9A100B681B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD1ACC624B2D9A100B681B3 /* Build configuration list for PBXNativeTarget "Rikimaru_ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD1ACC724B2D9A100B681B3 /* Debug */,
+				DAD1ACC824B2D9A100B681B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAD1AC8E24B2D99E00B681B3 /* Project object */;
+}

@@ -8,19 +8,17 @@
 
 import UIKit
 
-private struct AssociatedKey {
-  static var handles = "com.rikimaru.responder.actions" + UUID().uuidString
-}
+private var handlesKey: Void?
 
 extension UIResponder: Rikimaru {
   
   var rikimaru_handles: [Int: Action] {
     get {
-      let handles = objc_getAssociatedObject(self, &AssociatedKey.handles) as? [Int: Action]
+      let handles = objc_getAssociatedObject(self, &handlesKey) as? [Int: Action]
       return handles ?? [:]
     }
     set {
-      objc_setAssociatedObject(self, &AssociatedKey.handles, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+      objc_setAssociatedObject(self, &handlesKey, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
     }
   }
   
