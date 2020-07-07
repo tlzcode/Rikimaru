@@ -19,6 +19,7 @@
 		DAD1ACCD24B2F9F300B681B3 /* Rikimaru.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD1ACCC24B2F9F300B681B3 /* Rikimaru.framework */; };
 		DAD1ACCE24B2F9F300B681B3 /* Rikimaru.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DAD1ACCC24B2F9F300B681B3 /* Rikimaru.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DAD1ACD324B3139300B681B3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD1ACD224B3139300B681B3 /* TableViewController.swift */; };
+		DAD1ACD924B40F2300B681B3 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = DAD1ACD824B40F2300B681B3 /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		DAD1ACC924B2EF8F00B681B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DAD1ACCC24B2F9F300B681B3 /* Rikimaru.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Rikimaru.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD1ACD224B3139300B681B3 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		DAD1ACD824B40F2300B681B3 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		DAD1AC8D24B2D99E00B681B3 = {
 			isa = PBXGroup;
 			children = (
+				DAD1ACD724B40EF900B681B3 /* Reference */,
 				DAD1AC9824B2D99E00B681B3 /* Rikimaru_Example */,
 				DAD1ACAF24B2D9A100B681B3 /* Rikimaru_ExampleTests */,
 				DAD1ACBA24B2D9A100B681B3 /* Rikimaru_ExampleUITests */,
@@ -169,6 +172,14 @@
 				DAD1ACCC24B2F9F300B681B3 /* Rikimaru.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAD1ACD724B40EF900B681B3 /* Reference */ = {
+			isa = PBXGroup;
+			children = (
+				DAD1ACD824B40F2300B681B3 /* .travis.yml */,
+			);
+			name = Reference;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +289,7 @@
 			files = (
 				DAD1ACA624B2D9A100B681B3 /* LaunchScreen.storyboard in Resources */,
 				DAD1ACA324B2D9A100B681B3 /* Preview Assets.xcassets in Resources */,
+				DAD1ACD924B40F2300B681B3 /* .travis.yml in Resources */,
 				DAD1ACA024B2D9A100B681B3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
