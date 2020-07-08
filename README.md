@@ -33,6 +33,10 @@ Feel free to drag `Rikimaru` project to your iOS Project. But it's recommended t
 github "tlzcode/Rikimaru"
 ```
 
+## TODO
+
+* [ ] Make the parameters more user-friendly
+
 ## License
 
 Proposer is available under the MIT license. See the LICENSE file for more info.
